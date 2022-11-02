@@ -1,52 +1,74 @@
-from concurrent.futures import ProcessPoolExecutor
+guests = ['Patrick', 'Jose', 'Raven']
 
-
-people = ['JP Falcon', 'Jose', 'Raven']
-
-name = people[0].title()
-print(name + ", please come to my dinner.")
-
-name = people[1].title()
-print(name + ", please come to my dinner.")
-
-name = people[2].title()
-print(name + ", please come to my dinner.")
-
-name = people[1].title()
-print("\nSorry, " + name + " can't make it to dinner.")
-
-del(people[1])
-people.insert(1, 'Adhenz')
-
-
-name = people[0].title()
-print("\n" + name + ", please come to dinner.")
-
-name = people[1].title()
+name = guests[0].title()
 print(name + ", please come to dinner.")
 
-name = people[2].title()
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+name = guests[2].title()
+print(name + ", please come to dinner.")
+
+del(guests[1])
+guests.insert(1, 'Adhenz')
+
+name = guests[0].title()
+print("\n" + name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+name = guests[2].title()
 print(name + ", please come to dinner.")
 
 print("\nWe got a bigger table!")
-people.insert(0, 'Ron Man')
-people.insert(2, 'Gerald Frien')
-people.append('John')
+guests.insert(0, 'Errol')
+guests.insert(2, 'Ledon')
+guests.append('Manoah')
 
-name =  people[0].title()
+name = guests[0].title()
 print(name + ", please come to dinner.")
 
-name = people[1].title()
+name = guests[1].title()
 print(name + ", please come to dinner.")
 
-name = people[2].title()
+name = guests[2].title()
 print(name + ", please come to dinner.")
 
-name = people[3].title()
+name = guests[3].title()
 print(name + ", please come to dinner.")
 
-name =  people[4].title()
+name = guests[4].title()
 print(name + ", please come to dinner.")
 
-name =  people[5].title()
+name = guests[5].title()
 print(name + ", please come to dinner.")
+
+print("\nSorry, we can only invite 2 people to dinner.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+
+name = guests[0].title()
+print(name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+
+del(guests[0])
+del(guests[0])
+
+
+print(guests)
+

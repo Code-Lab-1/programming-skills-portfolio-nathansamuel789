@@ -1,26 +1,46 @@
-people = ['JP Falcon', 'Jose', 'Raven']
+guests = ['Patrick', 'Jose', 'Raven']
 
-name = people[0].title()
-print(name + ", please come to my dinner.")
+name = guests[0].title()
+print(name + ", please come to dinner.")
 
-name = people[1].title()
-print(name + ", please come to my dinner.")
+name = guests[1].title()
+print(name + ", please come to dinner.")
 
-name = people[2].title()
-print(name + ", please come to my dinner.")
+name = guests[2].title()
+print(name + ", please come to dinner.")
 
-name = people[1].title()
-print("\nSorry, " + name + " can't make it to dinner.")
+del(guests[1])
+guests.insert(1, 'Adhenz')
 
-del(people[1])
-people.insert(1, 'Adhenz')
-
-
-name = people[0].title()
+name = guests[0].title()
 print("\n" + name + ", please come to dinner.")
 
-name = people[1].title()
+name = guests[1].title()
 print(name + ", please come to dinner.")
 
-name = people[2].title()
+name = guests[2].title()
 print(name + ", please come to dinner.")
+
+print("\nWe got a bigger table!")
+guests.insert(0, 'Errol')
+guests.insert(2, 'Ledon')
+guests.append('Manoah')
+
+name = guests[0].title()
+print(name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+name = guests[2].title()
+print(name + ", please come to dinner.")
+
+name = guests[3].title()
+print(name + ", please come to dinner.")
+
+name = guests[4].title()
+print(name + ", please come to dinner.")
+
+name = guests[5].title()
+print(name + ", please come to dinner.")
+
