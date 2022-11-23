@@ -3,7 +3,7 @@ prompt += "\nEnter 'finshed' when you are done:"
 
 while True:
     topping = input(prompt)
-    if topping != 'quit':
+    if topping != 'finished':
         print("  I will add " + topping + " to your pizza.")
     else:
         break
