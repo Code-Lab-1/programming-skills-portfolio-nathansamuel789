@@ -18,6 +18,7 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -32,6 +33,8 @@ Twinkle, twinkle, little star,
 ## Exercise 3: Print date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
+
+
 
 &nbsp;
 &nbsp;
